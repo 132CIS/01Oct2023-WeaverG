@@ -1,0 +1,125 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	background-color: white;
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+	}
+
+
+	header h2 {
+	font-size: 170%;
+	color: #800000; /*maroon*/
+	text-indent: 30px;
+	}	
+	
+	header h3 {
+	font-size: 130%; 
+	font-style: italic; 
+	text-indent: 30px;
+	}
+
+
+/* Body */	
+
+/* the styles for the main content */
+main {
+	clear: left;
+}
+main h1 {
+	font-size: 150%;
+}
+main h2 {
+	color: var(--global-color-1);
+	font-size: 130%;
+}
+main h3 {
+	font-size: 105%;
+}
+
+/* Link italic rule and hovering over */
+
+h3 a:hover {font-style: italic; }
+
+
+/* Nav ul - page 145 */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+  }
+
+/* Horizontal navigation menu in html*/
+li {
+	float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}	 
+
+
+/* h1 */
+ 
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: #333;
+	overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	border-bottom: 3px solid transparent;
+  }
+  
+  .topnav a:hover {
+	border-bottom: 3px solid red;
+  }
+  
+  .topnav a.active {
+	border-bottom: 3px solid red;
+  }
+
+
+/* Section */
+section {
+	display: block;
+}
+
+
+/* Adding a Shadow and Color over specific text */
+
+h3 {
+  color: #800000; 
+  text-shadow: 0 0 3px #FF0000;
+}
+
+/* Global rule */
+	{
+	color: #800000;
+	color: var(--global-color-1);
+	}
+	
+/* the styles for the footer */
+	
+	P 
+	{ 
+	text-align: center 
+	}
+	
